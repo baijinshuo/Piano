@@ -1,0 +1,36 @@
+C:\Users\Administrator\Desktop\键盘钢琴\piano1\piano1\obj\x86\Debug\ResolveAssemblyReference.cache
+C:\Users\Administrator\Desktop\键盘钢琴\piano1\piano1\obj\x86\Debug\piano1.AboutBox1.resources
+C:\Users\Administrator\Desktop\键盘钢琴\piano1\piano1\obj\x86\Debug\piano1.Form1.resources
+C:\Users\Administrator\Desktop\键盘钢琴\piano1\piano1\obj\x86\Debug\piano1.Properties.Resources.resources
+C:\Users\Administrator\Desktop\键盘钢琴\piano1\piano1\obj\x86\Debug\GenerateResource.read.1.tlog
+C:\Users\Administrator\Desktop\键盘钢琴\piano1\piano1\obj\x86\Debug\GenerateResource.write.1.tlog
+C:\Users\Administrator\Desktop\键盘钢琴\piano1\piano1\bin\Debug\piano.exe
+C:\Users\Administrator\Desktop\键盘钢琴\piano1\piano1\bin\Debug\piano.pdb
+C:\Users\Administrator\Desktop\键盘钢琴\piano1\piano1\obj\x86\Debug\piano.exe
+C:\Users\Administrator\Desktop\键盘钢琴\piano1\piano1\obj\x86\Debug\piano.pdb
+C:\Documents and Settings\Administrator\桌面\键盘钢琴\piano1\piano1\obj\x86\Debug\piano.exe
+C:\Documents and Settings\Administrator\桌面\键盘钢琴\piano1\piano1\obj\x86\Debug\piano.pdb
+C:\Documents and Settings\Administrator\桌面\piano1\piano1\obj\x86\Debug\piano.exe
+C:\Documents and Settings\Administrator\桌面\piano1\piano1\obj\x86\Debug\piano.pdb
+C:\Documents and Settings\Administrator\桌面\piano1\piano1\obj\x86\Debug\ResolveAssemblyReference.cache
+C:\Documents and Settings\Administrator\桌面\piano1\piano1\obj\x86\Debug\piano1.AboutBox1.resources
+C:\Documents and Settings\Administrator\桌面\piano1\piano1\obj\x86\Debug\piano1.Form1.resources
+C:\Documents and Settings\Administrator\桌面\piano1\piano1\obj\x86\Debug\piano1.Properties.Resources.resources
+C:\Documents and Settings\Administrator\桌面\piano1\piano1\obj\x86\Debug\GenerateResource.read.1.tlog
+C:\Documents and Settings\Administrator\桌面\piano1\piano1\obj\x86\Debug\GenerateResource.write.1.tlog
+C:\Documents and Settings\Administrator\桌面\piano1\piano1\bin\Debug\piano.exe
+C:\Documents and Settings\Administrator\桌面\piano1\piano1\bin\Debug\piano.pdb
+H:\c#软件开发工具\键盘钢琴\piano1\piano1\obj\x86\Debug\piano.exe
+H:\c#软件开发工具\键盘钢琴\piano1\piano1\obj\x86\Debug\piano.pdb
+I:\c#软件开发工具\键盘钢琴\piano1\piano1\obj\x86\Debug\piano.exe
+I:\c#软件开发工具\键盘钢琴\piano1\piano1\obj\x86\Debug\piano.pdb
+C:\Documents and Settings\Administrator\桌面\piano1\piano1\obj\x86\Debug\piano1.Form2.resources
+H:\c#软件开发工具\键盘钢琴\piano1\piano1\bin\Debug\piano.exe
+H:\c#软件开发工具\键盘钢琴\piano1\piano1\bin\Debug\piano.pdb
+H:\c#软件开发工具\键盘钢琴\piano1\piano1\obj\x86\Debug\ResolveAssemblyReference.cache
+H:\c#软件开发工具\键盘钢琴\piano1\piano1\obj\x86\Debug\piano1.Form1.resources
+H:\c#软件开发工具\键盘钢琴\piano1\piano1\obj\x86\Debug\piano1.Form2.resources
+H:\c#软件开发工具\键盘钢琴\piano1\piano1\obj\x86\Debug\piano1.Properties.Resources.resources
+H:\c#软件开发工具\键盘钢琴\piano1\piano1\obj\x86\Debug\GenerateResource.read.1.tlog
+H:\c#软件开发工具\键盘钢琴\piano1\piano1\obj\x86\Debug\GenerateResource.write.1.tlog
+H:\c#软件开发工具\键盘钢琴\piano1\piano1\obj\x86\Debug\piano1.AboutBox2.resources

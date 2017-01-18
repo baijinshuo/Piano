@@ -1,0 +1,525 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">x86</Platform>
+    <ProductVersion>8.0.30703</ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{119E22E2-7CA4-405D-B288-2AE8A043CB05}</ProjectGuid>
+    <OutputType>WinExe</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>piano1</RootNamespace>
+    <AssemblyName>piano</AssemblyName>
+    <TargetFrameworkVersion>v4.0</TargetFrameworkVersion>
+    <TargetFrameworkProfile>Client</TargetFrameworkProfile>
+    <FileAlignment>512</FileAlignment>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|x86' ">
+    <PlatformTarget>x86</PlatformTarget>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|x86' ">
+    <PlatformTarget>x86</PlatformTarget>
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="Microsoft.VisualBasic" />
+    <Reference Include="Microsoft.VisualBasic.PowerPacks.Vs, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, processorArchitecture=MSIL" />
+    <Reference Include="System" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Deployment" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="AboutBox1.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="AboutBox1.Designer.cs">
+      <DependentUpon>AboutBox1.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Form1.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Form1.Designer.cs">
+      <DependentUpon>Form1.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Program.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <EmbeddedResource Include="AboutBox1.resx">
+      <DependentUpon>AboutBox1.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Form1.resx">
+      <DependentUpon>Form1.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Properties\Resources.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resources.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <Compile Include="Properties\Resources.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Resources.resx</DependentUpon>
+      <DesignTime>True</DesignTime>
+    </Compile>
+    <None Include="Properties\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <LastGenOutput>Settings.Designer.cs</LastGenOutput>
+    </None>
+    <Compile Include="Properties\Settings.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Settings.settings</DependentUpon>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\1.wav" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\2.wav" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\3.wav" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\4.wav" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\5.wav" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\6.wav" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\7.wav" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\8.wav" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\9.wav" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\10.wav" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\11.wav" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\12.wav" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\13.wav" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\14.wav" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\15.wav" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\16.wav" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\17.wav" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\18.wav" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\19.wav" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\20.wav" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\21.wav" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\22.wav" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\23.wav" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\24.wav" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\25.wav" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\26.wav" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\27.wav" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\28.wav" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\29.wav" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\30.wav" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\31.wav" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\32.wav" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\33.wav" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\34.wav" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\35.wav" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\36.wav" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\37.wav" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\38.wav" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\39.wav" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\40.wav" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\41.wav" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\42.wav" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\43.wav" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\44.wav" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\45.wav" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\46.wav" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\47.wav" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\48.wav" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\49.wav" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\51.wav" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\50.wav" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\52.wav" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\53.wav" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\54.wav" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\55.wav" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\56.wav" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\57.wav" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\58.wav" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\59.wav" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\60.wav" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\61.wav" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\62.wav" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\63.wav" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\64.wav" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\65.wav" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\66.wav" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\67.wav" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\68.wav" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\69.wav" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\70.wav" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\71.wav" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\72.wav" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\73.wav" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\74.wav" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\75.wav" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\76.wav" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\77.wav" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\78.wav" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\79.wav" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\80.wav" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\81.wav" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\82.wav" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\83.wav" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\84.wav" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\85.wav" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\86.wav" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\87.wav" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\88.wav" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\+1.bmp" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\+2.bmp" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\+3.bmp" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\+4.bmp" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\+5.bmp" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\+6.bmp" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\+7.bmp" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\++1.bmp" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\++2.bmp" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\++3.bmp" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\++4.bmp" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\++5.bmp" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\++6.bmp" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\++7.bmp" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\+++1.bmp" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\+++2.bmp" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\+++3.bmp" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\+++4.bmp" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\+++5.bmp" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\1.bmp" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\1-.bmp" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\1--.bmp" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\1---.bmp" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\2.bmp" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\2-.bmp" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\2--.bmp" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\2---.bmp" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\3.bmp" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\3-.bmp" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\3--.bmp" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\3---.bmp" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\4.bmp" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\4-.bmp" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\4--.bmp" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\4---.bmp" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\5.bmp" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\5-.bmp" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\5--.bmp" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\5---.bmp" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\6.bmp" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\6-.bmp" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\6--.bmp" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\6---.bmp" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\7.bmp" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\7-.bmp" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\7--.bmp" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\7---.bmp" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\未命名.bmp" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\t0148310c89ae5a8f93.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\GQ.bmp" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\hui.bmp" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\w.bmp" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\GQ_副本.bmp" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\7763555_115539225170_2_副本.jpg" />
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>
